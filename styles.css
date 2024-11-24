@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: bottom right;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.container {
+    background-color: rgb(8, 8, 8);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 90%;
+}
+
+h1 {
+    color: #f3efef;
+    margin-bottom: 2rem;
+}
+
+.fact-box {
+    background-color: #f8f8f8;
+    padding: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fact-text {
+    color: #444;
+    line-height: 1.6;
+}
+
+#fact-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+#fact-button:hover {
+    background-color: #45a049;
+}
+
+#fact-button:active {
+    transform: scale(0.98);
+}
